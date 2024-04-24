@@ -794,7 +794,10 @@ blockquote {
 }
 
 .header-main .image-container img {
-    position: relative;
+       position: relative;
+    height: 147px;
+    object-fit: cover;
+    object-position: top;
 }
 
 .header-main .image-container .header-name {
